@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest a new feature or enhancement.
+title: "[Feature Request]: "
+labels: ["feature"]
+type: feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Who should we reach out to if there is any further enquiries?
+      placeholder: ex. email@example.com, example@coreconsulting.asia
+    validations:
+      required: false
+  - type: textarea
+    id: problems-statement
+    attributes:
+      label: Problem Statement
+      description: Clearly describe the problem you are experiencing that you would like to see addressed.
+      placeholder: Describe the problem here...
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how we can help you to solve your problem. Provide examples would be better.
+      placeholder: Describe the solution here...
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context (if any)
+      description: Please provide any additional context or information that may be helpful in understanding the issue. (context, screenshots, or references)
+      placeholder: Describe the additional context here...
+      value: |
+        - 
+        - 
+        - 
+    validations:
+      required: false
