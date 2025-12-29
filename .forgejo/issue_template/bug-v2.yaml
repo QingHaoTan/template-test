@@ -39,8 +39,6 @@ body:
         3. ...
       value: |
         1. 
-        2. 
-        3. 
     validations:
       required: true
   - type: textarea
